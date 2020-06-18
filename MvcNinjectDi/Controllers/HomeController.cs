@@ -12,12 +12,9 @@ namespace MvcNinjectDi.Controllers
     public class HomeController : Controller
     {
         IRepository repo;
-        public HomeController()
+        public HomeController(IRepository r)
         {
-            IKernel ninjectKernel = new StandardKernel();
-            ninjectKernel.Bind<IRepository>().To<BookRepository>();
-            repo = ninjectKernel.Get<IRepository>();
-
+            repo = r;
         }
         public ActionResult Index()
         {
