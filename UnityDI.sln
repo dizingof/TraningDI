@@ -11,6 +11,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseDI", "DatabaseDI\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUnityDI", "ConsoleUnityDI\ConsoleUnityDI.csproj", "{30010A12-4961-4166-BC8D-2F5161676DCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcNinjectDi", "MvcNinjectDi\MvcNinjectDi.csproj", "{020104F9-99E4-49AD-9FBD-328EF8B13DE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{30010A12-4961-4166-BC8D-2F5161676DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30010A12-4961-4166-BC8D-2F5161676DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30010A12-4961-4166-BC8D-2F5161676DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020104F9-99E4-49AD-9FBD-328EF8B13DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020104F9-99E4-49AD-9FBD-328EF8B13DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020104F9-99E4-49AD-9FBD-328EF8B13DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020104F9-99E4-49AD-9FBD-328EF8B13DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

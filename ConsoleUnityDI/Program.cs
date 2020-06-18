@@ -18,9 +18,8 @@ namespace ConsoleUnityDI
             container.RegisterType<ICar, BMW>();
             container.RegisterType<ICar, Audi>("LuxuryCar");
             // Registers Driver type    
-            container.RegisterType<Driver>("LuxuryCarDriver",
-                new InjectionConstructor(container.Resolve<ICar>("LuxuryCar")));
-
+            container.RegisterType<Driver>("LuxuryCarDriver", new InjectionConstructor(container.Resolve<ICar>("LuxuryCar")));
+            container.RegisterType<Driver>();
             Driver driver1 = container.Resolve<Driver>();// injects BMW
             driver1.RunCar();
 
@@ -28,6 +27,11 @@ namespace ConsoleUnityDI
             driver2.RunCar();
             Console.ReadKey();
            
+
+        }
+
+        public void test(ICar icar)
+        {
 
         }
     }
